@@ -1,0 +1,95 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("all_BC_bg.jpg"); /* A pale yellow background color */
+    color: #333; /* Dark text color */
+    line-height: 1.6;
+  }
+  
+  /* Add some styles for the overall layout */
+  .ul {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Styling for the pacman image */
+  .pacman {
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styling for the title */
+  .page-title {
+    color: #32CD32; /* Green text color for the title */
+    font-size: 36px;
+    margin-top: 20px;
+  }
+  
+  /* Styling for the main content */
+  .title {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  /* Styling for the dotted horizontal rule */
+  .dotted-hr {
+    border: none;
+    border-top: 2px dotted #32CD32; /* Dotted green line */
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    width: 50%;
+    margin: 20px auto;
+  }
+  
+  /* Styling for the mountain image */
+  .mount {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Box shadow for the image */
+  }
+  
+  /* Styling for the footer */
+  footer {
+    background-color: #32CD32; /* Green footer background color */
+    padding: 10px;
+    text-align: center;
+    color: #FFFFFF; /* White text color for the footer */
+  }
+  
+  /* Styling for attribution div */
+  .attribution {
+    font-size: 12px;
+    margin-top: 20px;
+    color: #777;
+  }
+  
+  /* Add some responsive styles */
+  @media only screen and (max-width: 768px) {
+    .page-title {
+      font-size: 24px;
+    }
+    .title {
+      font-size: 16px;
+    }
+  }
+  
+  /* Add specific styles for Brazilian-themed elements */
+  .samba-dancers,
+  .carnival-mask {
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Box shadow for Brazilian-themed elements */
+  }
+  
